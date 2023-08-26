@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Stuffies at ASU</title>
+    <link rel="icon" href="The Stuffies Logo - Round.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!--NAVIGATION BAR---------------------------------------------->
+        <div id="navBtn" class="button" onclick="openNav()">&#9776;</div>
+        <div id="nav">
+            <div id="closeBtn" class="button" onclick="closeNav()">&#10006;</div>
+            <ul onclick="closeNav()">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#about">Who We Are</a></div>
+                <div><a href="#signUp">Become a Member!</a></div>
+                <!-- <div><a href="#members">Member List</a></div> -->
+                <!-- <div><a href="#gallery">Gallery</a></div> -->
+                <div><a href="#contact">Get in Touch</a></div>
+            </ul>
+        </div>
+
+        <!--HEADER & PROFILE PHOTO---------------------------------------------------------->
+        <h1 id="title">THE STUFFIES</h1>
+        <h2>at ASU&reg;</h2>
+
+        <img src="The Stuffies Logo - Round.png" id="profile">
+
+        <!--ABOUT---------------------------------------------->
+        <h1 id="about" class="header">Who We Are</h1>
+        <p>The Stuffies at ASU&reg; exists to spread laughter and fun across Arizona State University through Stuffies of all kinds. College life is stressful; we get it! And we believe that a simple stuffed animal or plushy has the
+            power to
+            lighten a mood, draw a smile, and bring cheer to any atmosphere. That's why we are committed to taking
+            our
+            Stuffies with us everywhere - classrooms, dining courts, events, you name it - to bring a smile to YOUR face and the faces of everyone we meet.</p>
+
+        <!--MEMBERSHIP---------------------------------------------->
+        <h1 id="signUp" class="header">Become a Member!</h1>
+        <p>Want to bring cheer to ASU <b>AND</b> get an excuse to take your Stuffies with you wherever you go? Fill out or interest form below! Don't have any Stuffies? Not to worry! We have plenty of fun opportunities for you, too.
+        </p>
+        <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__WiXQzNUMEwxRFBEU0NVQ1g2VjFCN1RJVVoyMUREVi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0"> </iframe>
+
+        <!--CONTACT---------------------------------------------->
+        <h1 id="contact" class="header">Get in Touch</h1>
+        <p id="contactInfo">Got questions? Curious to know more? Email us at <a
+                href="mailto:thestuffiesatasu@outlook.com">thestuffiesatasu@outlook.com</a>
+        </p>
+    </div>
+</body>
+
+<script>
+    //OPEN & CLOSE NAV BAR
+    function openNav() {
+        document.querySelector("#nav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.querySelector("#nav").style.width = "0";
+    }
+
+</script>
+
+</html>
