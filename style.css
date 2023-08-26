@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(./Photos/Stuffed\ Animal\ Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    background-color: rgba(74, 74, 74, 0.7);
+    margin: -10px -10px -1rem -10px;
+}
+
+#navBtn {
+    font-size: 2rem;
+    text-align: left;
+    padding: .5rem 0 0 1rem;
+    color: #ffcf4b;
+}
+
+#nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffcf4b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: #6f122f;
+}
+
+#closeBtn {
+    font-size: 1.5rem;
+    text-align: right;
+    margin: .5rem 1rem;
+    color: #8C1D40;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin-top: -1rem;
+}
+
+ul div {
+    font-family: 'Gluten', cursive;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0 .5rem;
+    text-align: left;
+}
+
+ul div a {
+    color: #8C1D40;
+}
+
+#title {
+    font-family: 'Gluten', cursive;
+    font-size: 4.5rem;
+    -webkit-text-fill-color: #6f122f;
+    -webkit-text-stroke: 1px #ffcf4b;
+    text-shadow: #FC0 1px 0px 10px;
+}
+
+h2 {
+    font-family: 'Gluten', cursive;
+    color: #ffcf4b;
+    margin-top: -2.5rem;
+}
+
+#profile {
+    width: 200px;
+    border-radius: 50%;
+    margin: 2.5rem 0 3rem 0;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 204, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px 5px rgb(255, 204, 0, 0.6);
+    box-shadow: 0px 0px 20px 5px rgb(255, 204, 0, 0.6);
+}
+
+.header {
+    font-family: 'Gluten', cursive;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #ffcf4b;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 1rem 3rem 1rem;
+}
+
+p a {
+    color: #ffcf4b;
+    text-decoration: underline;
+}
+
+iframe {
+    width: 340px;
+    height: 1050px; 
+}
+
+#contactInfo {
+    padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 700px) {
+    #wrapper {
+        margin: 1rem;
+    }
+
+    p {
+        margin: 0 2rem 0 2rem;
+    }
+
+    iframe {
+        width: 650px;
+        height: 950px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #wrapper {
+        background-color: rgba(74, 74, 74, 0.85);
+        margin: 2rem;
+    }
+    
+    #navBtn {
+        display: none;
+    }
+
+    #title {
+        font-size: 5rem;
+        padding-top: 4rem;
+    }
+
+    .header {
+        padding-top: 2rem;
+    }
+
+    p {
+        margin: 0 15rem 0 15rem;
+    }
+}
